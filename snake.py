@@ -15,7 +15,7 @@ segments = []
 
 
 for position in starting_position:
-    new_segment = Turtle("square")
+    new_segment = Turtle("turtle")
     new_segment.color("white")
     new_segment.penup()
     new_segment.goto(position)
