@@ -4,6 +4,7 @@ import random
 
 #Este codigo muestra la comida con la cual se va alimentar la serpinet para crecer 
 class Food(Turtle):
+    
     def __init__(self):
         super().__init__()
         self.shape("turtle")
