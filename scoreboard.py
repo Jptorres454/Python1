@@ -9,7 +9,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.color("#0D4C92")
+        self.color("#0D4C92")       #Se cambia el color de la comida para que sea mas visible
         self.penup()
         self.goto(0, 270)
         self.hideturtle()
