@@ -1,8 +1,8 @@
 from turtle import Turtle
 import random
 
-#Este codigo hace que la comida sea visible y en main se coloca con colision
 
+#Este codigo muestra la comida con la cual se va alimentar la serpinet para crecer 
 class Food(Turtle):
     def __init__(self):
         super().__init__()
@@ -13,8 +13,8 @@ class Food(Turtle):
         self.speed("fastest")
         self.refresh()
 
+#Muestra que cada vez que la serpiente coma la comida vuelva en un lugar aleatorio
     def refresh(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
         self.goto(random_x, random_y)
-
