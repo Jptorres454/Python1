@@ -1,6 +1,8 @@
 from turtle import Turtle
 import random
 
+#Este codigo hace que la comida sea visible y en main se coloca con colision
+
 class Food(Turtle):
     def __init__(self):
         super().__init__()

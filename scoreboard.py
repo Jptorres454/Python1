@@ -2,6 +2,8 @@ from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
 
+#EL codigo muestra que cada que la snake coma de un punto en el scoreboard
+
 class Scoreboard(Turtle):
 
     def __init__(self):

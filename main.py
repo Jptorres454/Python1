@@ -1,4 +1,7 @@
 from turtle import Screen
+
+#Cada una de las librerias o documentos lo que hace es llamar a cada una de ellas haciendo que cada una de ellas tengan su propia tarea sin necesidad de tener un solo codigo
+
 from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
