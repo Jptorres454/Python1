@@ -49,3 +49,4 @@ while game_is_on:
             scoreboard.game_over()
 
 screen.exitonclick()                #Para que la ventana no se cierre de inmediato sin darle un click
+#probando cositas
